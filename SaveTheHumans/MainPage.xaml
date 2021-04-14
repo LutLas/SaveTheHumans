@@ -8,7 +8,10 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Page.Resources>
+<<<<<<< HEAD
         <x:String x:Key="AppName">Save The Humans</x:String>
+=======
+>>>>>>> 3bec2250a680acbd392977d94c8bd4212d118419
         <ControlTemplate x:Key="EnemyTemplate" TargetType="ContentControl">
             <Grid/>
         </ControlTemplate>
@@ -32,10 +35,17 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="True"/>
+<<<<<<< HEAD
             <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" FontSize="100"/>
         </Grid>
 
         <Button x:Name="startButton" Click="startButton_Click" Content="Start!" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center"/>
+=======
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Save The Humans"/>
+        </Grid>
+
+        <Button x:Name="startButton" Content="Start!" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center"/>
+>>>>>>> 3bec2250a680acbd392977d94c8bd4212d118419
         <StackPanel Grid.Column="2" HorizontalAlignment="Center" Orientation="Vertical" Grid.Row="2" VerticalAlignment="Center">
             <TextBlock TextWrapping="Wrap"
                 Text="Avoid These" Style="{StaticResource TitleTextBlockStyle}"/>
